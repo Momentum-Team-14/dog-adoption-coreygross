@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    letter-spacing: .2rem;
+}
+
+h1{
+    background-color:#004175;
+    display: flex;
+    flex-direction: row;
+    border-bottom:#89DEEF solid;
+    color: white;
+    padding: 20px;
+    font-size: 3rem;
+    font-family: 'open sans';
+}
+
+h2{
+    font-size: 2rem;
+    padding: 0;
+    font-family: 'oswald';
+}
+
+h3{
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'oswald';
+}
+
+.dogpics img{
+    width: 90%;
+}
+
+.row1{
+    display: flex;
+}
+
+.row1 img{
+    height: 300px;
+}
+.row2{
+    display: flex;
+}
+
+.row2 img{
+    height: 300px;
+}
+
+.row3{
+    display: flex;
+}
+
+.row3 img{
+    height: 300px;
+}
+
+
+.dogpics{
+    width: 500px;
+    justify-content: center;
+}
+
+.dog-lists{
+display: flex;
+flex-wrap: wrap;
+max-width: 400px;
+align-items: center;
+list-style: none;
+padding: 0;
+font-family: 'open sans';
+
+}
+
+.dog-lists li{
+    display: flex;
+    padding: 5px;
+    margin:5px;
+    border-radius: 10px;
+    background: #89DEEF;
+    text-align: center;
+    left: 0%;
+    border:solid #004175;
+    font-size:14px;
+
+}
+
+
+#Donate{
+    background:
+        linear-gradient(rgba(166, 169, 240, .45),
+        rgba(166, 169, 240, .45)),
+        url('starter_files/images/donate.jpg');    
+        width: 500px;
+        height: 300px;
+        list-style: none;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+        font-size: 5rem;
+        text-align: center;
+        line-height: 300px;
+        color: white;
+    }
+
+#Volunteer{       
+    background:
+    linear-gradient(rgba(166, 169, 240, .45),
+    rgba(166, 169, 240, .45)),
+    url('starter_files/images/volunteer.jpg');    
+    width: 500px;
+    height: 300px;
+    list-style: none;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+}
+#Location{
+    background:
+    linear-gradient(rgba(166, 169, 240, .45),
+    rgba(166, 169, 240, .45)),
+    url('starter_files/images/location.png');    
+    width: 500px;
+    height: 300px;
+    list-style: none;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 300px;
+    color: white;
+}
+
+.footer ul{
+    display: inline-flex;
+
+}
